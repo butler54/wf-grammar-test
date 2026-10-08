@@ -1,0 +1,7 @@
+name: T3 reusable caller to t2
+on:
+  push:
+    branches: [main]
+jobs:
+  call:
+    uses: ./.github/workflows/t2.yml
